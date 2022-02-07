@@ -1,45 +1,44 @@
- .calculator {
-    align-self: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    width: 600px;
-    height: 500px;
-    font-size: 18px;
-  }
-  
-  .screen {
-    grid-column: span 4;
-    display: flex;
-    align-content: center;
-    justify-content: flex-end;
-    padding-top: 40px;
-    padding-right: 5px;
-    max-height: 60px;
-    font-size: 25px;
-    background: var(--primary-color);
-    color: var(--white);
-  }
-  
-  .zero {
-    grid-column: span 2;
-  }
-  
-  button {
-    font-size: 20px;
-    background: var(--neutral-color-1);
-    border: 1px solid var(--neutral-color-2);
-    position: relative;
-    transition-duration: 0.4s;
-  }
-  
-  button:active {
-    background-color: var(--neutral-color-2);
-    background-size: 100%;
-    transition: background 0s;
-  }
-  
-  .orange {
-    background: var(--accent-color);
-  }
-  
+.calculator {
+  align-self: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  width: 600px;
+  height: 500px;
+  font-size: 18px;
+}
+
+.screen {
+  grid-column: span 4;
+  display: flex;
+  align-content: center;
+  justify-content: flex-end;
+  padding-top: 40px;
+  padding-right: 5px;
+  max-height: 60px;
+  font-size: 25px;
+  background: var(--primary-color);
+  color: var(--white);
+}
+
+.zero {
+  grid-column: span 2;
+}
+
+button {
+  font-size: 20px;
+  background: var(--neutral-color-1);
+  border: 1px solid var(--neutral-color-2);
+  position: relative;
+  transition-duration: 0.4s;
+}
+
+button:active {
+  background-color: var(--neutral-color-2);
+  background-size: 100%;
+  transition: background 0s;
+}
+
+.orange {
+  background: var(--accent-color);
+}
