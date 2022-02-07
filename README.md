@@ -16,7 +16,7 @@ Additional description about the project and its features.
 - Technologies used 
   
   ``` bash
-  - Webpack(Code Bundlng et al)
+  - WebHint(Linting tool)
   - Jest(for testing)
   - Git(version control)
   - ESLint(JavaScript linting)
@@ -39,7 +39,7 @@ To get a local copy up and running follow these simple example steps.
 
 ```bash
 $ git@github.com:clintonjosephs/MathMagicians.git
-$ cd MovieSpot
+$ cd MathMagicians
 ```
 #### Run project
 
