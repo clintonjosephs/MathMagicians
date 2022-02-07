@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "MathMagictians",
+  "name": "An app used to perform simple arithmetic operations",
   "icons": [
     {
       "src": "favicon.ico",

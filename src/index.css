@@ -20,6 +20,7 @@ body {
     'Helvetica Neue',
     sans-serif;
   min-height: 100vh;
+  background: var(--neutral-color-2);
 }
 
 .main {
@@ -59,6 +60,14 @@ button {
   font-size: 20px;
   background: var(--neutral-color-1);
   border: 1px solid var(--neutral-color-2);
+  position: relative;
+  transition-duration: 0.4s;
+} 
+
+button:active {
+  background-color: var(--neutral-color-2);
+  background-size: 100%;
+  transition: background 0s;
 }
 
 .orange {
