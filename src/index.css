@@ -62,7 +62,7 @@ button {
   border: 1px solid var(--neutral-color-2);
   position: relative;
   transition-duration: 0.4s;
-} 
+}
 
 button:active {
   background-color: var(--neutral-color-2);
