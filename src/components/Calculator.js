@@ -5,13 +5,13 @@ import Button from './controls/Button';
 import calculate from '../logic/calculate';
 import './Calculator.css';
 
-const [data, setData] = useState({ total: 0 });
-
-const performOperation = (event) => {
-  setData(calculate(data, event.target.value));
-};
-
 const Calculator = (props) => {
+  const [data, setData] = useState({ total: 0 });
+
+  const performOperation = (event) => {
+    setData(calculate(data, event.target.value));
+  };
+
   const { buttons } = props;
   const { total, operation, next } = data;
   return (
