@@ -3,8 +3,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-  width: 600px;
-  height: 500px;
+  width: 800px;
+  height: 450px;
   font-size: 18px;
 }
 
@@ -25,7 +25,7 @@
   grid-column: span 2;
 }
 
-button {
+input[type="button"] {
   font-size: 20px;
   background: var(--neutral-color-1);
   border: 1px solid var(--neutral-color-2);
@@ -33,12 +33,12 @@ button {
   transition-duration: 0.4s;
 }
 
-button:active {
+input[type="button"]:active {
   background-color: var(--neutral-color-2);
   background-size: 100%;
   transition: background 0s;
 }
 
 .orange {
-  background: var(--accent-color);
+  background: var(--accent-color) !important;
 }
