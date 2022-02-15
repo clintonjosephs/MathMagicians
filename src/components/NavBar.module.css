@@ -1,0 +1,8 @@
+.navBar {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background: var(--primary-color);
+    margin-top: 0px;
+    color: var(--white);
+}
