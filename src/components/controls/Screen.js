@@ -14,7 +14,7 @@ Screen.defaultProps = {
 };
 
 Screen.propTypes = {
-  total: PropTypes.string.isRequired,
+  total: PropTypes.number.isRequired,
   operation: PropTypes.string,
   next: PropTypes.string,
 };
