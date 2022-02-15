@@ -2,8 +2,8 @@ import React from 'react';
 
 const Welcome = () => (
   <div style={{ margin: '10% auto', width: '70%' }}>
-    <h2 style={{ marginBottom: '10px' }}>Welcome to our page!</h2>
-    <div style={{ padding: '20px', background: '#e0e0e0', lineHeight: '25px' }}>
+    <h2 className="h2-general">Welcome to our page!</h2>
+    <div className="text-wrapper">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
       veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
