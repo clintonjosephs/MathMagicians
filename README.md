@@ -4,9 +4,9 @@
 
 ![screenshot](./src/images/calculator.gif)
 
-> Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.
+[Demo Link - gh-pages](https://clintonjosephs.github.io/MathMagicians)
 
-> This project is part of the Microverse curriculum Module 3 Block 1. Here we added events and broke the calculator into components, using props and states to pass data around.
+> Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.
 
 
 Additional description about the project and its features.
