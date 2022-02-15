@@ -9,8 +9,8 @@
 }
 
 * {
- margin: 0px;
- padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -27,15 +27,4 @@ body {
     sans-serif;
   min-height: 100vh;
   background: var(--neutral-color-2);
-}
-
-.h2-general {
-  text-align: center;
-  margin-bottom: 15px;
-}
-
-.text-wrapper {
-  padding: 20px;
-  background: #e0e0e0;
-  line-height: 25px;
 }
