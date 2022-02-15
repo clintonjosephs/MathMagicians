@@ -17,16 +17,21 @@ const Calculator = () => {
   const buttons = CalculatorKeys();
 
   return (
-    <div className="calculator">
-      <Screen total={total} operation={operation} next={next} />
-      {buttons.map(({ text, className }) => (
-        <Button
-          text={text}
-          className={className}
-          handlerClick={performOperation}
-          key={text}
-        />
-      ))}
+    <div className="calculator-wrapper">
+      <h2 style={{ textAlign: 'center', marginBottom: '20px' }}>
+        Try out our calculator!
+      </h2>
+      <div className="calculator">
+        <Screen total={total} operation={operation} next={next} />
+        {buttons.map(({ text, className }) => (
+          <Button
+            text={text}
+            className={className}
+            handlerClick={performOperation}
+            key={text}
+          />
+        ))}
+      </div>
     </div>
   );
 };

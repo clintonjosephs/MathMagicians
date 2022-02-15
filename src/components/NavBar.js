@@ -1,13 +1,14 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import styles from './NavBar.module.css';
+import logo from './calculator.svg';
 
 const NavBar = () => {
   const links = [
     {
       id: 1,
       path: '/',
-      text: 'Welcome',
+      text: 'Home',
     },
     {
       id: 2,
@@ -23,7 +24,11 @@ const NavBar = () => {
 
   return (
     <nav className={styles.navBar}>
-      <h2>Math Magicians</h2>
+      <h2>
+        <img src={logo} alt="Logo" style={{ width: '20px' }} />
+        {' '}
+        Math-Magicians
+      </h2>
       <ul>
         {links.map(({ id, path, text }) => (
           <li key={id}>
@@ -33,8 +38,8 @@ const NavBar = () => {
               style={({ isActive }) => ({
                 textDecoration: 'none',
                 margin: '0 10px',
-                borderBottom: isActive ? 'solid 5px orange' : '',
-                color: isActive ? 'orange' : 'black',
+                borderBottom: isActive ? 'solid 5px #f5913e' : '',
+                color: isActive ? '#f5913e' : 'black',
               })}
             >
               {text}

@@ -1,8 +1,24 @@
 .navBar {
-    width: 100%;
     padding-left: 10%;
     padding-right: 10%;
     background: var(--primary-color);
     margin-top: 0px;
-    color: var(--white);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.navBar ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    font-size: 18px;
+}
+
+.navBar h2 {
+  align-self: center;
+  font-size: 20px;
+  font-weight: 400;
 }
