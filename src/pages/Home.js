@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Welcome = () => (
+const Home = () => (
   <div style={{ margin: '10% auto', width: '70%' }}>
     <h2 className="h2-general">Welcome to our page!</h2>
     <div className="text-wrapper">
@@ -28,4 +28,4 @@ const Welcome = () => (
   </div>
 );
 
-export default Welcome;
+export default Home;

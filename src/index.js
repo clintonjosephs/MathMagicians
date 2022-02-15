@@ -6,7 +6,7 @@ import NavBar from './components/NavBar';
 import './index.css';
 import NotFound from './pages/NotFound';
 import Quotes from './pages/Quotes';
-import Welcome from './pages/Welcome';
+import Home from './pages/Home';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -14,7 +14,7 @@ ReactDOM.render(
     <Router basename={process.env.PUBLIC_URL}>
       <NavBar />
       <Routes>
-        <Route path="/" element={<Welcome />} />
+        <Route path="/" element={<Home />} />
         <Route path="/calculator" element={<App />} />
         <Route path="/quotes" element={<Quotes />} />
         <Route path="*" element={<NotFound />} />
