@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/MathMagicians/static/css/main.dd064326.css",
+    "main.js": "/MathMagicians/static/js/main.f4bf719d.js",
+    "static/js/787.4806e1ff.chunk.js": "/MathMagicians/static/js/787.4806e1ff.chunk.js",
+    "static/media/calculator.svg": "/MathMagicians/static/media/calculator.9329d8028e6ae4e5ce9d5b0efe809663.svg",
+    "index.html": "/MathMagicians/index.html",
+    "main.dd064326.css.map": "/MathMagicians/static/css/main.dd064326.css.map",
+    "main.f4bf719d.js.map": "/MathMagicians/static/js/main.f4bf719d.js.map",
+    "787.4806e1ff.chunk.js.map": "/MathMagicians/static/js/787.4806e1ff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd064326.css",
+    "static/js/main.f4bf719d.js"
+  ]
+}
