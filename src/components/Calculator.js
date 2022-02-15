@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { BiWinkSmile } from 'react-icons/bi';
 import Screen from './controls/Screen';
 import Button from './controls/Button';
 import calculate from '../logic/calculate';
@@ -18,9 +19,18 @@ const Calculator = () => {
 
   return (
     <div className="calculator-wrapper">
-      <h2 style={{ textAlign: 'center', marginBottom: '20px' }}>
-        Try out our calculator!
-      </h2>
+      <div
+        style={{
+          marginBottom: '20px',
+          display: 'flex',
+          flexDirection: 'row',
+          alignItems: 'center',
+          justifyContent: 'center',
+        }}
+      >
+        <BiWinkSmile style={{ fontSize: '40px' }} />
+        <h2>Try out our calculator!</h2>
+      </div>
       <div className="calculator">
         <Screen total={total} operation={operation} next={next} />
         {buttons.map(({ text, className }) => (
