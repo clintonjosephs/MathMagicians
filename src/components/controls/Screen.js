@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 
 const Screen = ({ total, operation, next }) => (
-  <div className="screen">
+  <div className="screen" role="show-display">
     {total}
     {operation}
     {next}
@@ -11,6 +11,7 @@ const Screen = ({ total, operation, next }) => (
 Screen.defaultProps = {
   operation: null,
   next: null,
+  total: 0
 };
 
 Screen.propTypes = {
