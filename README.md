@@ -18,7 +18,8 @@ Additional description about the project and its features.
 - Technologies used 
   
   ``` bash
-  - WebHint(Linting tool)
+  - React (Front end library)
+  - React Testing Library
   - Jest(for testing)
   - Git(version control)
   - ESLint(JavaScript linting)
@@ -57,7 +58,7 @@ $ npm start
 $ runs on http://localhost:3001/
 ```
 
-## Authors
+## Author
 
 👤 **Clinton Mbonu**
 

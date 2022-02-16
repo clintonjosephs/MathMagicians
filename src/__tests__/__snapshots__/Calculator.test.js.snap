@@ -54,7 +54,7 @@ exports[`Use Jest snapshots to test the components. Renders calculator buttons 1
   >
     <div
       className="screen"
-      role="show-display"
+      data-testid="screen"
     >
       0
     </div>

@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Use Jest snapshots to test the button component. Button component renders properly 1`] = `
+<input
+  className="orange"
+  onClick={[Function]}
+  type="button"
+  value="+"
+/>
+`;

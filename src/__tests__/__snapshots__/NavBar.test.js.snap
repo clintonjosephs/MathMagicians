@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Use Jest snapshots to test the navbar. Renders NavBar component 1`] = `
+<nav
+  className="navBar"
+>
+  <h2>
+    <img
+      alt="Logo"
+      src="calculator.svg"
+      style={
+        Object {
+          "width": "20px",
+        }
+      }
+    />
+     
+    Math-Magicians
+  </h2>
+  <ul>
+    <li>
+      <a
+        aria-current="page"
+        className="link active"
+        href="/"
+        onClick={[Function]}
+        style={
+          Object {
+            "borderBottom": "solid 5px #f5913e",
+            "color": "#f5913e",
+            "margin": "0 10px",
+            "textDecoration": "none",
+          }
+        }
+      >
+        Home
+      </a>
+    </li>
+    <li>
+      <a
+        className="link"
+        href="/calculator"
+        onClick={[Function]}
+        style={
+          Object {
+            "borderBottom": "",
+            "color": "black",
+            "margin": "0 10px",
+            "textDecoration": "none",
+          }
+        }
+      >
+        Calculator
+      </a>
+    </li>
+    <li>
+      <a
+        className="link"
+        href="/quotes"
+        onClick={[Function]}
+        style={
+          Object {
+            "borderBottom": "",
+            "color": "black",
+            "margin": "0 10px",
+            "textDecoration": "none",
+          }
+        }
+      >
+        Quotes
+      </a>
+    </li>
+  </ul>
+</nav>
+`;
