@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Use Jest snapshots to test the Quotes. Renders Quotes component 1`] = `
+Object {
+  "instance": null,
+  "nodeType": "component",
+  "props": Object {},
+  "rendered": Object {
+    "instance": null,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h2
+          className="h2-general"
+        >
+          Random Quotes
+        </h2>,
+        <div
+          className="text-wrapper"
+        >
+          Mathematics is not about numbers, equations, computations or algorithms: is is about understanding. -William Paul Thurston
+        </div>,
+      ],
+      "style": Object {
+        "margin": "10% auto",
+        "width": "70%",
+      },
+    },
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Random Quotes",
+          "className": "h2-general",
+        },
+        "rendered": Array [
+          "Random Quotes",
+        ],
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Mathematics is not about numbers, equations, computations or algorithms: is is about understanding. -William Paul Thurston",
+          "className": "text-wrapper",
+        },
+        "rendered": Array [
+          "Mathematics is not about numbers, equations, computations or algorithms: is is about understanding. -William Paul Thurston",
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  "type": [Function],
+}
+`;

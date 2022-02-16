@@ -8,6 +8,7 @@
 
 > Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.
 
+> Used react testing library and Jest for unit and component tests.
 
 Additional description about the project and its features.
 
@@ -18,7 +19,8 @@ Additional description about the project and its features.
 - Technologies used 
   
   ``` bash
-  - WebHint(Linting tool)
+  - React (Front end library)
+  - React Testing Library
   - Jest(for testing)
   - Git(version control)
   - ESLint(JavaScript linting)
@@ -57,7 +59,7 @@ $ npm start
 $ runs on http://localhost:3001/
 ```
 
-## Authors
+## Author
 
 👤 **Clinton Mbonu**
 

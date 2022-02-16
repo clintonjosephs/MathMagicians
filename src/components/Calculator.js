@@ -7,13 +7,13 @@ import CalculatorKeys from './controls/CalculatorKeys';
 import './Calculator.css';
 
 const Calculator = () => {
-  const [data, setData] = useState({ total: 0 });
+  const [data, setData] = useState({ total: '0' });
+
+  const { total, operation, next } = data;
 
   const performOperation = (event) => {
     setData(calculate(data, event.target.value));
   };
-
-  const { total, operation, next } = data;
 
   const buttons = CalculatorKeys();
 
@@ -32,7 +32,11 @@ const Calculator = () => {
         <h2>Try out our calculator!</h2>
       </div>
       <div className="calculator">
-        <Screen total={total} operation={operation} next={next} />
+        <Screen
+          total={total}
+          operation={operation}
+          next={next}
+        />
         {buttons.map(({ text, className }) => (
           <Button
             text={text}
