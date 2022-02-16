@@ -5,7 +5,7 @@ import Quotes from '../pages/Quotes';
 describe('Use Jest snapshots to test the Quotes.', () => {
   it('Renders Quotes component', () => {
     const component = renderer.create(
-        <Quotes />
+      <Quotes />,
     ).toTree();
     expect(component).toMatchSnapshot();
   });

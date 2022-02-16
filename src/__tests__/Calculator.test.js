@@ -6,7 +6,7 @@ import Calculator from '../components/Calculator';
 
 describe('Use Jest snapshots to test the components.', () => {
   it('Renders calculator buttons', () => {
-    const component = renderer.create(<Calculator />).toJSON()
+    const component = renderer.create(<Calculator />).toJSON();
     expect(component).toMatchSnapshot();
   });
 });
