@@ -1,0 +1,16 @@
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.h2-general {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.text-wrapper {
+  padding: 20px;
+  background: #e0e0e0;
+  line-height: 25px;
+}

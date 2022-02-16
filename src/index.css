@@ -1,0 +1,30 @@
+/* Variables */
+:root {
+  --primary-color: #858694;
+  --accent-color: #f5913e;
+  --neutral-color-1: #e0e0e0;
+  --neutral-color-2: #c9c9c9;
+  --white: #fff;
+  --orange: orange;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family:
+    'Segoe UI',
+    'Roboto',
+    'Oxygen',
+    'Ubuntu',
+    'Cantarell',
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+  min-height: 100vh;
+  background: var(--neutral-color-2);
+}
