@@ -38,7 +38,7 @@ To get a local copy up and running follow these simple example steps.
 ### Install
   -  [Git](https://git-scm.com/downloads)
   -  [Node](https://nodejs.org/en/download/)
-### Usage
+
 #### Clone this repository
 
 ```bash
