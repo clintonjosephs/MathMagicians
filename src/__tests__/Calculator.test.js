@@ -50,4 +50,16 @@ describe('Perform calculation operations', () => {
     const result = screen.getByTestId('screen');
     expect(result.innerHTML).toBe('1');
   });
+
+  test('use calculator in multiplication', () => {
+    render(<Calculator />);
+    userEvent.click(screen.getByText('AC'));
+    userEvent.click(screen.getByText('2'));
+    userEvent.click(screen.getByText('0'));
+    userEvent.click(screen.getByText('x'));
+    userEvent.click(screen.getByText('3'));
+    userEvent.click(screen.getByText('='));
+    const result = screen.getByTestId('screen');
+    expect(result.innerHTML).toBe('60');
+  });
 });
