@@ -8,13 +8,13 @@
 
 > Used react testing library and Jest for unit and component tests.
 
-# GH-PAGES
+## GH-PAGES
 [Demo Link](https://clintonjosephs.github.io/MathMagicians)
 
-# NETLIFY
+## NETLIFY
 [Demo Link](https://sad-boyd-80e269.netlify.app/calculator)
 
-# HEROKU
+## HEROKU
 [DEMO LINE](https://calculatorklint.herokuapp.com/)
 
 Additional description about the project and its features.
