@@ -4,11 +4,18 @@
 
 ![screenshot](./src/images/calculator.gif)
 
-[Demo Link - gh-pages](https://clintonjosephs.github.io/MathMagicians)
-
 > Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.
 
 > Used react testing library and Jest for unit and component tests.
+
+# GH-PAGES
+[Demo Link](https://clintonjosephs.github.io/MathMagicians)
+
+# NETLIFY
+[Demo Link](https://sad-boyd-80e269.netlify.app/calculator)
+
+# HEROKU
+[DEMO LINE](https://calculatorklint.herokuapp.com/)
 
 Additional description about the project and its features.
 
