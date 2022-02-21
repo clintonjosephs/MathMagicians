@@ -15,7 +15,7 @@
 [Demo Link](https://sad-boyd-80e269.netlify.app/calculator)
 
 ## HEROKU
-[DEMO LINE](https://calculatorklint.herokuapp.com/)
+[Demo Link](https://calculatorklint.herokuapp.com/)
 
 Additional description about the project and its features.
 
