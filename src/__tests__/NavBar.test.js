@@ -16,7 +16,7 @@ describe('Use Jest snapshots to test the navbar.', () => {
   });
 });
 
-describe('Test user operation on NavLink', () => {
+describe('Test user operation during navigation', () => {
   it('Checks how links toggle active on user click', () => {
     render(
       <Router>
